@@ -1,4 +1,17 @@
-# (under construction)
+##########################################################################################
+#//     #    ######   #####  #     #       #####  ####### #     # ####### ###  #####   //#
+#//    # #   #     # #     # #     #      #     # #     # ##    # #        #  #     #  //#
+#//   #   #  #     # #       #     #      #       #     # # #   # #        #  #        //#
+#//  #     # ######  #       #######      #       #     # #  #  # #####    #  #  ####  //#
+#//  ####### #   #   #       #     #      #       #     # #   # # #        #  #     #  //#
+#//  #     # #    #  #     # #     #      #     # #     # #    ## #        #  #     #  //#
+#//  #     # #     #  #####  #     #       #####  ####### #     # #       ###  #####   //#
+##########################################################################################
+#//                            By: Gabriel Guebarra Conejo                             //#
+#//                                 USE AS YOU PLEASE                                  //#
+##########################################################################################
+#//                                 UNDER CONSTRUCTION                                 //#
+##########################################################################################
 
 # Reserved for zsh and Oh-My-Zsh configuration
 
@@ -15,7 +28,6 @@ sudo pacman -S gcc
 sudo pacman -S make
 sudo pacman -S cmake
 sudo pacman -S openssh
-sudo pacman -S
 echo "Finished installing essentials."
 sleep 3
 
@@ -26,7 +38,6 @@ sudo pacman -S ktorrent
 sudo pacman -S vim
 sudo pacman -S nano
 sudo pacman -S screenfetch
-sudo pacman -S
 echo "Finished installing Quality Of Life generals."
 sleep 3
 
@@ -84,9 +95,7 @@ sleep 3
 sudo pacman -S imagemagick
 sudo pacman -S kdenlive
 sudo pacman -S gimp
-sudo pacman -S
-sudo pacman -S
-sudo pacman -S
+sudo pacman -S blender
 echo "Finished video and image editors related."
 sleep 3
 
@@ -116,3 +125,14 @@ sudo snap install sublime-text --classic
 sudo snap install slack --classic
 echo "Finished snap packages installation."
 sleep 3
+
+# Docker
+sudo pacman -S docker
+sudo pacman -S docker-compose
+sudo systemctl enable docker.service
+
+# Ruby and Rails
+
+# node and yarn
+
+# Python and pypy
